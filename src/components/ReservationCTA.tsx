@@ -50,10 +50,8 @@ export default function ReservationCTA() {
 
         <div className="relative z-10 flex flex-col items-center text-center">
           <p className="eyebrow text-xs sm:text-sm">Join Us</p>
-          <h2 className="mt-5 leading-none text-tavola-cream">
-            <span className="font-serif-display block text-4xl font-semibold sm:text-5xl">
-              Your Table
-            </span>
+          <h2 className="mt-5 leading-[1.05] text-tavola-cream">
+            <span className="font-script block text-5xl sm:text-6xl">Your Table</span>
             <span className="font-script mt-1 block text-5xl text-tavola-gold sm:text-7xl">
               Awaits
             </span>
