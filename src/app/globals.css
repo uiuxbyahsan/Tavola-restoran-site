@@ -10,7 +10,7 @@
   --color-tavola-text-light: #f6f1e7;
 
   --font-script: var(--font-script);
-  --font-display: var(--font-script);
+  --font-display: var(--font-body);
   --font-body: var(--font-body);
   --font-serif: var(--font-serif);
 
@@ -39,9 +39,12 @@ body {
   outline-offset: 2px;
 }
 
+/* Section headings / big statement lines — Manrope bold (Hitoribok is
+   reserved for eyebrow labels + the footer wordmark only). */
 .font-display {
-  font-family: var(--font-display), cursive;
-  font-weight: 400;
+  font-family: var(--font-display), sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.02em;
 }
 
 .font-script {
@@ -52,19 +55,20 @@ body {
   font-family: var(--font-serif), Georgia, serif;
 }
 
-/* Legibility guard for Hitoribok at dense/small sizes */
+/* Dish names / denser heading text — Manrope semibold. */
 .font-display-tight {
-  font-family: var(--font-display), cursive;
+  font-family: var(--font-display), sans-serif;
   font-weight: 400;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.01em;
 }
 
+/* Eyebrow labels — site-wide these use Hitoribok (script/brush accent),
+   in sentence case (not all-caps, which reads too shouty in the script). */
 .eyebrow {
-  font-family: var(--font-body), sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
+  font-family: var(--font-script), cursive;
+  letter-spacing: 0.02em;
   color: var(--color-tavola-gold);
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* Marquee ticker */

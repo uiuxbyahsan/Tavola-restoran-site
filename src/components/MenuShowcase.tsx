@@ -40,14 +40,14 @@ export default function MenuShowcase() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-black/10 transition-opacity duration-500 group-hover:from-black/95" />
 
-              <div className="absolute bottom-8 left-6 right-6 sm:left-8">
-                <p className="eyebrow text-xs">{cat.tagline}</p>
-                <p className="font-display mt-2 text-2xl text-tavola-cream transition-colors duration-500 group-hover:text-tavola-gold sm:text-3xl">
+              <div className="absolute inset-x-5 bottom-6 sm:inset-x-6">
+                <p className="eyebrow text-[10px] leading-tight sm:text-xs">{cat.tagline}</p>
+                <p className="font-display mt-1.5 pr-12 text-sm leading-[1.15] text-tavola-cream transition-colors duration-500 group-hover:text-tavola-gold sm:text-base">
                   {cat.label}
                 </p>
               </div>
 
-              <span className="absolute bottom-6 right-6 flex h-9 w-9 items-center justify-center rounded-full border border-tavola-cream/50 text-lg text-tavola-cream transition-colors duration-500 group-hover:border-tavola-gold group-hover:text-tavola-gold">
+              <span className="absolute bottom-5 right-5 flex h-8 w-8 items-center justify-center rounded-full border border-tavola-cream/50 text-base text-tavola-cream transition-colors duration-500 group-hover:border-tavola-gold group-hover:text-tavola-gold sm:right-6">
                 +
               </span>
             </MotionLink>

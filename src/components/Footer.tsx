@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow text-xs">Visit</p>
+          <p className="eyebrow text-sm sm:text-base">Visit</p>
           <p className="mt-4 text-sm leading-relaxed text-tavola-cream/70">
             Maršala Tita 50
             <br />
@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow text-xs">Opening Hours</p>
+          <p className="eyebrow text-sm sm:text-base">Opening hours</p>
           <ul className="mt-4 flex flex-col gap-2 text-sm text-tavola-cream/70">
             {openingHours.map((row) => (
               <li key={row.day} className="flex justify-between gap-6">
@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
 
         <div>
-          <p className="eyebrow text-xs">Explore</p>
+          <p className="eyebrow text-sm sm:text-base">Explore</p>
           <ul className="mt-4 flex flex-col gap-2 text-sm text-tavola-cream/70">
             <li>
               <Link href="/#our-story" className="gold-underline transition-colors hover:text-tavola-gold">

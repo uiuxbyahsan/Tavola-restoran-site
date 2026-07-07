@@ -88,8 +88,8 @@ export default function Hero() {
 
         <motion.h1
           variants={item}
-          className="font-script leading-[1.02] text-tavola-cream"
-          style={{ fontSize: "clamp(2.5rem, 9vw, 6.25rem)" }}
+          className="font-display leading-[1.05] text-tavola-cream"
+          style={{ fontSize: "clamp(2.25rem, 7vw, 5rem)" }}
         >
           Where Italian Tradition
           <br />

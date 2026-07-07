@@ -14,9 +14,9 @@ export default function Instagram() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.7 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-            className="eyebrow text-xs sm:text-sm"
+            className="eyebrow text-sm sm:text-base"
           >
-            Follow Us on Instagram
+            Follow us on Instagram
           </motion.p>
           <motion.h2
             initial={{ opacity: 0, y: 24 }}

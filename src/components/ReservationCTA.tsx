@@ -49,10 +49,10 @@ export default function ReservationCTA() {
         <Squiggle className="absolute bottom-6 right-6 h-4 w-24 rotate-180 text-tavola-gold/70 sm:bottom-10 sm:right-10" />
 
         <div className="relative z-10 flex flex-col items-center text-center">
-          <p className="eyebrow text-xs sm:text-sm">Join Us</p>
-          <h2 className="mt-5 leading-[1.05] text-tavola-cream">
-            <span className="font-script block text-5xl sm:text-6xl">Your Table</span>
-            <span className="font-script mt-1 block text-5xl text-tavola-gold sm:text-7xl">
+          <p className="eyebrow text-sm sm:text-base">Join us</p>
+          <h2 className="mt-5 leading-[1.02] text-tavola-cream">
+            <span className="font-display block text-4xl sm:text-5xl">Your Table</span>
+            <span className="font-display mt-1 block text-4xl text-tavola-gold sm:text-6xl">
               Awaits
             </span>
           </h2>

@@ -25,9 +25,9 @@ export default function MenuContent() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="eyebrow text-xs sm:text-sm"
+          className="eyebrow text-sm sm:text-base"
         >
-          Our Menu
+          Our menu
         </motion.p>
         <motion.h1
           initial={{ opacity: 0, y: 24 }}
